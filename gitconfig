@@ -1,0 +1,14 @@
+[color]
+	ui = true
+[push]
+	default = simple
+[alias]
+	st = status
+	cm = commit
+	co = checkout
+	logp = log --oneline --pretty=oneline --decorate=short 
+	graph = log --graph --oneline --pretty=oneline --decorate=short 
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
